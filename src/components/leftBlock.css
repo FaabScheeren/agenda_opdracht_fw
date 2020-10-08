@@ -1,0 +1,32 @@
+#monthsBlock {
+  list-style: none;
+  padding: 0;
+}
+
+.headFabio {
+  color: #666666;
+  font-size: 20px;
+  font-family: "Open Sans";
+  font-weight: 600;
+}
+
+#monthsBlock li {
+  padding: 5px 0;
+  color: #18608b;
+  font-size: 17px;
+  font-family: "Open Sans";
+}
+
+#breadcrumb {
+  color: #18608b;
+  font-size: 13px;
+  font-family: "Open Sans";
+  font-weight: 400;
+}
+
+h1 {
+  color: #333333;
+  font-size: 30px;
+  font-family: "Open Sans";
+  font-weight: 400;
+}
