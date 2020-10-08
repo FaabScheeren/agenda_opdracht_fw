@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/App.css";
 import LeftBlock from "../components/leftBlock";
+import RightBlock from "../components/rightBlock";
 import events from "../data/academy_events";
 
 function App() {
@@ -20,6 +21,10 @@ function App() {
           <li>Op locatie</li>
           <li>Virtual classroom</li>
         </ul>
+        <h1>Juli 2020</h1>
+        {events.map((event) => {
+          return <RightBlock event={event} />;
+        })}
       </div>
     </div>
   );

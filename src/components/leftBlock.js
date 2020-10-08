@@ -3,7 +3,7 @@ import months from "../data/months";
 import "./leftBlock.css";
 
 const leftBlock = () => {
-  console.log("months", months);
+  // console.log("months", months);
 
   return (
     <div>

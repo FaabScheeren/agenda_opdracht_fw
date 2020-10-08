@@ -1,0 +1,30 @@
+.eventCategory {
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 13px;
+  color: #019000;
+  text-transform: uppercase;
+}
+
+.eventDuration {
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 13px;
+  color: #999999;
+  text-transform: uppercase;
+}
+
+.eventName {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 24px;
+  color: #1a1a1a;
+  margin: 10px 0;
+}
+
+.eventSummary {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 16px;
+  color: #808080;
+}

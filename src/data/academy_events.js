@@ -13,6 +13,7 @@ const academyEvents = [
     placesAvailable: function () {
       return this.totalPlaces - this.placesBooked;
     },
+    opLocatie: true,
   },
   {
     date: moment("2020-07-22"),
@@ -27,6 +28,7 @@ const academyEvents = [
     placesAvailable: function () {
       return this.totalPlaces - this.placesBooked;
     },
+    opLocatie: true,
   },
   {
     date: moment("2020-07-28"),
@@ -40,6 +42,7 @@ const academyEvents = [
     placesAvailable: function () {
       return this.totalPlaces - this.placesBooked;
     },
+    opLocatie: false,
   },
   {
     date: moment("2020-07-28"),
@@ -66,6 +69,7 @@ const academyEvents = [
     placesAvailable: function () {
       return this.totalPlaces - this.placesBooked;
     },
+    opLocatie: false,
   },
 ];
 
